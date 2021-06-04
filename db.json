@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "text": "Lorem Ipsum 2",
+      "day": "some day",
+      "reminder": false
+    },
+    {
+      "id": "3",
+      "text": "Lorem Ipsum 3",
+      "day": "some day",
+      "reminder": false
+    },
+    {
+      "text": "to fake db",
+      "day": "at 10:00",
+      "reminder": true,
+      "id": "MgvV5zg"
+    }
+  ]
+}

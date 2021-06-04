@@ -17,6 +17,26 @@ npm run serve
 npm run build
 ```
 
+### Serving the builded files
+To serve the app locally we need serve installed:
+```
+sudo npm install i -g serve
+```
+
+```
+serve -s dist
+```
+
+### Installing a fake backend for testing
+```
+npm i json-server
+```
+And to run it:
+```
+npm run backend
+```
+
+
 ### Lints and fixes files
 ```
 npm run lint
@@ -24,3 +44,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### TODO
+- Test a deployment with the blog backend, with CI and docker.
